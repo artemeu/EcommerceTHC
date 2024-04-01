@@ -1,0 +1,54 @@
+.item-detail-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.item-detail-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item-detail-title {
+  font-size: 28px;
+  color: #333;
+}
+
+.item-detail-image-container {
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  margin-bottom: 20px;
+}
+
+.item-detail-image {
+  max-width: 100%; /* Hacer que la imagen se ajuste al tamaño del contenedor */
+  max-height: 400px; /* Limitar la altura máxima de la imagen */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregando una sombra */
+}
+
+.item-detail-info-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item-detail-category {
+  font-style: italic;
+  color: #666;
+}
+
+.item-detail-info {
+  color: #555;
+}
+
+.item-detail-price {
+  font-weight: bold;
+  color: #000;
+}
+
+.item-detail-footer {
+  text-align: center;
+}

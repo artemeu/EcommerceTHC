@@ -1,11 +1,12 @@
+import "./NavBar.css";
+import Logo from "/CannabisTips.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { CartWidget } from "../CartWidget/CartWidget";
+import { NavLink } from "react-router-dom";
 
-import CartWidget from "../CartWidget/CartWidget";
-import Logo from "/CannabisTips.png";
-
-const NavBar = () => {
+export const NavBar = ({ itemsInCart }) => {
   return (
     <Navbar
       expand="sm"
@@ -20,17 +21,24 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="menu">
-            <Nav.Link href="#Semillas">Semilla</Nav.Link>
-            <Nav.Link href="#Luces">Luces</Nav.Link>
-            <Nav.Link href="#Carpas">Carpas</Nav.Link>
+            <Nav.Link to="/" as={NavLink}>
+              Inicio
+            </Nav.Link>
+            <Nav.Link to="/category/ventilacion" as={NavLink}>
+              Ventilacion
+            </Nav.Link>
+            <Nav.Link to="/category/luces" as={NavLink}>
+              Luces
+            </Nav.Link>
+            <Nav.Link to="/category/carpas" as={NavLink}>
+              Carpas
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
       <Container className="cart">
-        <CartWidget />
+        <CartWidget itemsInCart={itemsInCart} />
       </Container>
     </Navbar>
   );
 };
-
-export default NavBar;

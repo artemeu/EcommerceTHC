@@ -1,12 +1,11 @@
 import Cart from "../../assets/cart.svg";
+import "./CartWidget.css";
 
-const CartWidget = () => {
+export const CartWidget = () => {
   return (
     <div className="cart-widget">
       <img src={Cart} alt="Carrito" />
-      <span>10</span>
+      <span>20</span>
     </div>
   );
 };
-
-export default CartWidget;

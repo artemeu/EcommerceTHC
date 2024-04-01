@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Lámpara Led Mars Sunflash",
+    "price": 723870,
+    "description": "Fabricado con materiales de primera calidad como aluminio puro, acero inoxidable y pintura epoxi con tratamiento térmico. Cuenta con un chasis altamente eficiente en la disipación de calor, no se necesitan ventiladores u otras partes móviles que aumentan el consumo y acortan la vida útil. Además cuenta con fuentes Mean Well certificadas IP67 y es resistente al polvo, la tierra y la humedad.",
+    "img": "https://i.ibb.co/X5H53rq/Luz-1.png",
+    "category": "luces",
+    "stock": 20
+  },
+  {
+    "id": 2,
+    "title": "Led Insativa 3",
+    "price": 796400,
+    "description": "Las luminarias de espectro completo Insativa cuentan con una particular combinación de cuatro colores de LED, desde ultravioletas a infrarrojos, que maximizan la emisión de PPFD (Photosynthetic Photon Flux Density). A manera de resumen, el PPFD es la parte de luz que la planta utiliza para desarrollarse y se mide en micromoles.",
+    "img": "https://i.ibb.co/fxNx69J/Luz-2.png",
+    "category": "luces",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Led Growtech 400 W Full Spectrum",
+    "price": 333730,
+    "description": "MENOR GENERACION DE CALOR, se debe a dos motivos. Por un lado se utiliza menos potencia para la misma superficie. Por el otro, el LED irradia calor de forma concentrada y en dirección opuesta a la que ilumina. Esto hace que sea más sencillo eliminar el calor en relación a un hps Sodio, que irradia calor en todas las direcciones.",
+    "img": "https://i.ibb.co/txTH9Rx/Luz-3.png",
+    "category": "luces",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "title": "Cooler a rulemán 4",
+    "price": 25650,
+    "description": "Cooler de 4 pulgadas.",
+    "img": "https://i.ibb.co/2Mx09zr/Ventilacion-1.png",
+    "category": "ventilacion",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "title": "Extractor Turbina Simple Lateral 4",
+    "price": 138940,
+    "description": "Extractor de aire lateral de flujo centrifugo, de 4 pulgadas.",
+    "img": "https://i.ibb.co/sJPJsws/Ventilacion-2.png",
+    "category": "ventilacion",
+    "stock": 4
+  },
+  {
+    "id": 6,
+    "title": "Carpa Cultivo Indoor Garden Highpro Probox Multiuso Mod 100",
+    "price": 271205,
+    "description": "Garden High Pro es una de las marcas más importantes de accesorios de cultivo en el mundo. Sus carpas son de gran calidad, brindando la confianza de una marca pionera en el mercado de carpas.",
+    "img": "https://i.ibb.co/GpqVN59/Carpa-1.png",
+    "category": "carpas",
+    "stock": 5
+  },
+  {
+    "id": 7,
+    "title": "Carpa De Cultivo Indoor Garden High Pro Probox 40x40",
+    "price": 164480,
+    "description": "Garden High Pro es una de las marcas más importantes de accesorios de cultivo en el mundo. Sus carpas son de gran calidad, brindando la confianza de una marca pionera en el mercado de carpas.",
+    "img": "https://i.ibb.co/K03myXv/Carpa-2.png",
+    "category": "carpas",
+    "stock": 3
+  }
+]
