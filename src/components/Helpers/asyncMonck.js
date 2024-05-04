@@ -30,6 +30,16 @@ export const showDuplicateNotification = (item) => {
     });
 };
 
+export const showCartClearedNotification = () => {
+    Swal.fire({
+        position: "top-end",
+        icon: "info",
+        title: "El carrito ha sido vaciado",
+        showConfirmButton: false,
+        timer: 2000,
+    });
+};
+
 export const formatPrice = (price) => {
     return new Intl.NumberFormat("es-AR", {
         style: "currency",
