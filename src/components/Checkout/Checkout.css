@@ -1,0 +1,30 @@
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.checkout-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.checkout-message {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-message h2 {
+  margin-bottom: 10px;
+}
+
+.checkout-message p {
+  color: #666;
+}

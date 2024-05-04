@@ -1,28 +1,32 @@
-import data from "../Data/products.json"
+import Swal from "sweetalert2";
 
-export const getProducts = () => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(data);
-        }, 500)
-    })
-}
-
-export const getProductById = (productId) => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            const id = Number(productId);
-            resolve(data.find(prod => prod.id === id));
-        }, 500);
+export const showEliminatedNotification = (title) => {
+    Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: `${title} ha sido eliminado del carrito`,
+        showConfirmButton: false,
+        timer: 2000,
     });
 };
 
-export const getProductsByCategory = (category) => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            const filteredProducts = data.filter(prod => prod.category === category);
-            resolve(filteredProducts);
-        }, 500);
+export const showSuccessNotification = (item) => {
+    Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: `${item.title} ha sido agregado al carrito`,
+        showConfirmButton: false,
+        timer: 2000,
+    });
+};
+
+export const showDuplicateNotification = (item) => {
+    Swal.fire({
+        position: "top-end",
+        icon: "info",
+        title: `${item.title} ya ha sido agregado al carrito`,
+        showConfirmButton: false,
+        timer: 2000,
     });
 };
 
@@ -32,3 +36,4 @@ export const formatPrice = (price) => {
         currency: "ARS",
     }).format(price);
 };
+
