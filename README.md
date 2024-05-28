@@ -24,18 +24,6 @@ cd EcommerceTHC
 npm install
 ```
 
-4. Crear archivo para las variables de entorno
-
-Crear en la ruta principal un archivo .env con el siguente contenido
-```sh
-VITE_apiKey=AIzaSyCyd2FPjtX10X0iBL2cPgYkAKu51EjObkw
-VITE_authDomain=ecommercethc-62cf0.firebaseapp.com
-VITE_projectId=ecommercethc-62cf0
-VITE_storageBucket=ecommercethc-62cf0.appspot.com
-VITE_messagingSenderId=732694135629
-VITE_appId=1:732694135629:web:8b81f6795538bc3f00ad04
-```
-
 ## Dependencias
 
 - [Bootstrap]: Framework CSS para el diseño web.
